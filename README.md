@@ -29,7 +29,7 @@ This is an app that consult the braille dots for an expecific character. The ide
 **Renan Pina**
 * @[renanfpina](https://github.com/renanfpina)
 * renanfpina@gmail.com
-* [https://]renanpina.com.br](https://renanpina.com.br)
+* [renanpina.com.br](https://renanpina.com.br)
 
 
 ## mentoring
