@@ -1,4 +1,5 @@
 import React from 'react'
+import { InputCharacter } from './components'
 import './App.scss'
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <p>Braille Dots</p>
+        <InputCharacter />
       </header>
     </div>
   )
