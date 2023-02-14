@@ -1,4 +1,4 @@
-# Braille Dots
+## Braille Dots
 
 This is an app that consult the braille dots for an expecific character. The idea came from myy own headache when was learning the braille system, don't had any simple and accessible way to do it.
 
@@ -14,28 +14,27 @@ This is an app that consult the braille dots for an expecific character. The ide
 ## To run project
 
 * In the project directory, you can run:
->$npm start
+* >npm start
 * To view it in the browser:
-[http://localhost:3000](http://localhost:3000) 
+* [http://localhost:3000](http://localhost:3000) 
 
 
 ## Links
 
-- Repository: [https://github.com/renanfpina/braille-dots](https://github.com/renanfpina/braille-dots)
-- My website: [https://renanpina.com.br](https://renanpina.com.br)
+* Repository: [https://github.com/renanfpina/braille-dots](https://github.com/renanfpina/braille-dots)
+* My website: [https://renanpina.com.br](https://renanpina.com.br)
 
 
 ## Author
-
 **Renan Pina**
-@renanfpina(https://github.com/renanfpina)
-renanfpina@gmail.com
-https://renanpina.com.br
+* @renanfpina(https://github.com/renanfpina)
+* renanfpina@gmail.com
+* https://renanpina.com.br
 
 
 ## mentoring
 **inPhoenix**
-@inPhoenix(https://github.com/inPhoenix)
+* @inPhoenix(https://github.com/inPhoenix)
 
 
 ## Thanks and follow github!
