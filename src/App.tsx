@@ -6,9 +6,18 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Braille Dots</p>
-        <InputCharacter />
+        <h1>Braille Dots</h1>
       </header>
+      <main>
+      <InputCharacter />
+      </main>
+      <footer>
+        <h2>Instructions:</h2>
+        <ul>
+          <li>Enter a single character</li>
+          <li>receive the respponse</li>
+        </ul>
+      </footer>
     </div>
   )
 }
