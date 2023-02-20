@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const InputCharacter = () => {
+  const [dots, setDots] = useState('')
   const handleOnChange = (event: any) => {
     event.target.select()
-    alert('Entrou na função ' + event.target.value)
+    setDots(event.target.value)
   }
 
   return (
@@ -17,6 +18,7 @@ const InputCharacter = () => {
         maxLength={1}
         onChange={handleOnChange}
       />
+      <p role='region' aria-live='polite'>{dots}</p>
     </>
   )
 }
