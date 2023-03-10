@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/braille-dots/static/css/main.a62a8004.css",
+    "main.js": "/braille-dots/static/js/main.11fb255b.js",
+    "index.html": "/braille-dots/index.html",
+    "main.a62a8004.css.map": "/braille-dots/static/css/main.a62a8004.css.map",
+    "main.11fb255b.js.map": "/braille-dots/static/js/main.11fb255b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a62a8004.css",
+    "static/js/main.11fb255b.js"
+  ]
+}
