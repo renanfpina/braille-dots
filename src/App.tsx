@@ -13,10 +13,10 @@ const App = () => {
       </main>
       <footer>
         <div className="instructions">
-          <h2>Instructions:</h2>
+          <h2>Instruções:</h2>
           <ul>
-            <li>Enter a single character</li>
-            <li>receive the response</li>
+            <li>Digite um caracter para consultar os pontos braille correspondentes.</li>
+            <li>Caracteres que utilizam mais de uma célula braille, retornarão com um sinal de + (mais) para separar as células.</li>
           </ul>
         </div>
       </footer>
