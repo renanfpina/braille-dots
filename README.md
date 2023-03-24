@@ -21,8 +21,9 @@ This is an app that consult the braille dots for an expecific character. The ide
 
 ## Links
 
-* Repository: [github.com/renanfpina/braille-dots](https://github.com/renanfpina/braille-dots)
-* My website: [renanpina.com.br](https://renanpina.com.br)
+* [Live deploy](https://renanfpina.github.io/braille-dots)
+* [Git repository](https://github.com/renanfpina/braille-dots)
+* [My website](https://renanpina.com.br)
 
 
 ## Author
