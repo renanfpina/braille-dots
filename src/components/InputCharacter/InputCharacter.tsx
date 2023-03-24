@@ -6,12 +6,14 @@ const InputCharacter = () => {
   const handleOnChange = (event: any) => {
     const character = event.target.value
     event.target.select()
-    setDots(brailleMap[character])
+    brailleMap[character]
+      ? setDots(brailleMap[character])
+      : setDots('Desculpe, pontos braille não encontrados.')
   }
 
   return (
     <>
-      <label htmlFor="character">Input character: </label>
+      <label htmlFor="character">Digite um caracter: </label>
       <input type="text" id="character" name="character" autoFocus maxLength={1} onChange={handleOnChange} />
       <p role="region" aria-live="polite">
         {dots}
