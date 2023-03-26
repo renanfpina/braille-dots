@@ -17,6 +17,7 @@ const App = () => {
           <ul>
             <li>Digite um caracter para consultar os pontos braille correspondentes.</li>
             <li>Caracteres que utilizam mais de uma célula braille, retornarão com um sinal de + (mais) para separar as células.</li>
+            <li>Caso algum ponto braille esteja faltando ou incorreto, reporte para <a href="mailto:renanfpina@gmail.com?subject=Braille Dots">renanfpina@gmail.com</a>.</li>
           </ul>
         </div>
       </footer>
