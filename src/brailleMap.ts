@@ -83,7 +83,8 @@ const brailleMap: BrailleMap = {
   ']': '2, 3, 4, 5, 6',
   '{': '5 + 1, 2, 3',
   '}': '4, 5, 6 + 2',
-  '°': '3, 5, 6'
+  '°': '3, 5, 6',
+  'upperCase': '4, 6'
 }
 
 export default brailleMap
