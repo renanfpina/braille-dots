@@ -7,6 +7,7 @@ const InputCharacter = () => {
 
   useEffect(() => {
     myRef.current.focus()
+    myRef.current.click()
   }, [])
 
   const isUpperCase = (character: string): boolean => {
@@ -30,13 +31,13 @@ const InputCharacter = () => {
 
   return (
     <>
-      <label htmlFor="character">Test1: </label>
+      <label htmlFor="character">Digite um caracter: </label>
       <input
         type="text"
         id="character"
         name="character"
         ref={myRef}
-        placeholder="test1"
+        placeholder="Digite um caracter"
         maxLength={1}
         onChange={handleOnChange}
       />
