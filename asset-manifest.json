@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/braille-dots/static/css/main.a62a8004.css",
-    "main.js": "/braille-dots/static/js/main.f6e6deb2.js",
+    "main.js": "/braille-dots/static/js/main.8fb12194.js",
     "index.html": "/braille-dots/index.html",
     "main.a62a8004.css.map": "/braille-dots/static/css/main.a62a8004.css.map",
-    "main.f6e6deb2.js.map": "/braille-dots/static/js/main.f6e6deb2.js.map"
+    "main.8fb12194.js.map": "/braille-dots/static/js/main.8fb12194.js.map"
   },
   "entrypoints": [
     "static/css/main.a62a8004.css",
-    "static/js/main.f6e6deb2.js"
+    "static/js/main.8fb12194.js"
   ]
 }
