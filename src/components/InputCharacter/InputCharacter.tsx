@@ -6,8 +6,10 @@ const InputCharacter = () => {
   const myRef = useRef() as MutableRefObject<HTMLInputElement>
 
   useEffect(() => {
-    myRef.current.focus()
-    myRef.current.click()
+    if (myRef.current) {
+      myRef.current.focus()
+      myRef.current.click()
+    }
   }, [])
 
   const isUpperCase = (character: string): boolean => {
@@ -39,6 +41,7 @@ const InputCharacter = () => {
         ref={myRef}
         placeholder="Digite um caracter"
         maxLength={1}
+        autoFocus
         onChange={handleOnChange}
       />
       <p role="region" aria-live="polite">
